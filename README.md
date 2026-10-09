@@ -1,6 +1,6 @@
 # Get-WindowsImagesFromAzure.ps1
 
-Download the latest Windows Server 2025 Datacenter Gen2 marketplace image for each requested SKU, then produce a locally expanded, dynamic VHDX for use with a Gen2 Hyper-V VM. By default, the script processes both Core and GUI images.
+Download the latest Windows Server 2025 Datacenter Gen2 marketplace image for each requested SKU, then produce a locally expanded, dynamic VHDX for use with a Gen2 Hyper-V VM. By default, the script processes both 2025 Core and GUI images.
 
 ## TL;DR
 
