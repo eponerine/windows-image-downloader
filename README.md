@@ -2,6 +2,8 @@
 
 Download the latest Windows Server 2025 Datacenter Gen2 marketplace image for each requested SKU, then produce a locally expanded, dynamic VHDX for use with a Gen2 Hyper-V VM. By default, the script processes both 2025 Core and GUI images.
 
+If you don't know your SKU's or URN's by heart, use this [site](https://az-vm-image.info/?cmd=--all+--sku+2025).
+
 ## TL;DR
 
 From an elevated Windows PowerShell session, after preparing the resource group and output directory (see below), this downloads the Windows Server 2025 Core image (smalldisk) using device-code authentication:
