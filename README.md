@@ -2,7 +2,7 @@
 
 Download the latest Windows Server 2025 Datacenter Gen2 marketplace image for each requested SKU, then produce a locally expanded, dynamic VHDX for use with a Gen2 Hyper-V VM. By default, the script processes both 2025 Core and GUI images.
 
-If you don't know your SKU's or URN's by heart, use this [site](https://az-vm-image.info/?cmd=--all+--sku+2025).
+If you don't know your SKU's or URN's by heart, [use this site](https://az-vm-image.info/?cmd=--all+--publisher+microsoftwindowsserver+--sku+2025) and change the filters accordingly.
 
 ## TL;DR
 
